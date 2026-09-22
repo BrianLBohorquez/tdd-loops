@@ -11,7 +11,11 @@
  * echo("test", 1); // "test"
  */
 export function echo(word, n) {
-  // TODO
+  let result = "";
+  for (let i = 0; i < n; i += 1) {
+    result += word;
+  }
+  return result;
 }
 
 /**
@@ -27,7 +31,11 @@ export function echo(word, n) {
  * echoWithSpace("test", 1); // "test"
  */
 export function echoWithSpace(word, n) {
-  // TODO
+  let result = word;
+  for (let i = 1; i < n; i += 1) {
+    result += " " + word;
+  }
+  return result;
 }
 
 /**
@@ -42,7 +50,10 @@ export function echoWithSpace(word, n) {
  * sumTo(100); // 5050
  */
 export function sumTo(n) {
-  // TODO
+  for (let i = 1; (i = n); i += 1) {
+    result += 1;
+  }
+  return result;
 }
 
 /**
